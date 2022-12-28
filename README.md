@@ -1,4 +1,4 @@
-# Vanilla JavaScript Infinite Scroll - HTML CSS JS
+# Vanilla JavaScript Infinite Scrolling Feature
 
 _How To Implement Web Based Infinite Scroll Feature With Vanilla JavaScript - HTML CSS JS_
 
