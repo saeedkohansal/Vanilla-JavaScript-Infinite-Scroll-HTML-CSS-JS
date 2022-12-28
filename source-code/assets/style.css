@@ -1,0 +1,134 @@
+:root {
+    color-scheme: dark;
+}
+
+body {
+    font-family: "Barlow";
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+a {
+    color: #f00;
+    font-weight: bold;
+    transition: .4s;
+}
+
+a:hover {
+    color: #ff6868;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.title {
+    animation: slideInDown;
+    animation-duration: 2s;
+}
+
+.hint {
+    display: block;
+    float: left;
+    position: sticky;
+    top: 30px;
+    text-align: center;
+    background-color: #efefef;
+    width: 40%;
+    border-radius: 0 50px 50px 0;
+    animation: slideInLeft;
+    animation-duration: 2s;
+    z-index: 9;
+}
+
+.hint h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    font-weight: normal;
+}
+
+.scroll-position {
+    display: block;
+    float: right;
+    position: sticky;
+    top: 30px;
+    text-align: center;
+    background-color: #efefef;
+    width: 40%;
+    border-radius: 50px 0 0 50px;
+    animation: slideInRight;
+    animation-duration: 2s;
+    z-index: 9;
+}
+
+.scroll-position h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    font-weight: normal;
+}
+
+.integer {
+    font-size: 60px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.percentage {
+    font-size: 60px;
+    color: #df82ff;
+    font-weight: bold;
+}
+
+.true {
+    font-size: 60px;
+    color: #4a6bff;
+    font-weight: bold;
+}
+
+.false {
+    font-size: 60px;
+    color: #f54;
+    font-weight: bold;
+}
+
+.spinner {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.data .first-articles {
+    color: #666;
+}
+
+.data h1 {
+    font-size: 50px;
+    color: #ff9b44;
+}
+
+.the-end {
+    color: #ff0 !important;
+    background-color: #222;
+    width: 50%;
+    margin: 40px auto 0;
+    border-radius: 100px 100px 0 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .hint,
+    .scroll-position {
+        display: none;
+    }
+    .title {
+        font-size: 18px;
+    }
+}
