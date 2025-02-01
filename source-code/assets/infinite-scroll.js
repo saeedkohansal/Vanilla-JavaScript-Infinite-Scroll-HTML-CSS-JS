@@ -12,7 +12,7 @@ function infiniteScroll() {
     const maxItems = 20; // Maximum items
 
     // Detecting the end of the page (When the user reaches the bottom of the page)
-    const endOfThePage = window.innerHeight + window.pageYOffset >= document.body.offsetHeight;
+    const endOfThePage = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 5;
 
     // If the user reaches the bottom of the page
     if (endOfThePage) {
